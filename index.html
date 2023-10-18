@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS10 Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Wage Calculator</h1>
+    <hr />
+    <h2>Enter the Following Data</h2>
+    <p>
+      Number of Regular Hours Worked:
+      <input type="number" id="regular-in" value="0" />
+    </p>
+    <p>
+      Number of Overtime Hours Worked:
+      <input type="number" id="overtime-in" value="0" />
+    </p>
+    <p>Rate of Pay ($/hr): $ <input type="number" id="pay-in" value="0" /></p>
+    <p><button id="btn">Calculate Total Wage</button></p>
+    <hr />
+    <h2>Total Wage = $ <span id="output">0</span></h2>
+  </body>
+</html>

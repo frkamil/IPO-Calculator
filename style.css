@@ -1,0 +1,38 @@
+body {
+  width: 600px;
+  margin: 25px auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: #ff8800;
+}
+h2 {
+  color: rgb(255, 150, 63);
+}
+h1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: rgb(255, 136, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: rgb(255, 150, 63);
+  color: black;
+}
+
+hr {
+  width: 600px;
+}
+
+input {
+  width: 50px;
+}
