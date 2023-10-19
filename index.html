@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CS10 Grade Calculator</title>
+    <title>Wage Calculator</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="main.js"></script>
   </head>
 
   <body>
-    <h1>Wage Calculator</h1>
+    <h1 class="center">󠁼󠁼󠁼󠁼Wage Calculator󠁼󠁼󠁼󠁼󠁼󠁼󠁼󠁼󠁼󠁼</h1>
     <hr />
-    <h2>Enter the Following Data</h2>
     <p>
+      A wage is payment made by an employer to an employee (that's you) for work
+      done in a specific time period.
+    </p>
+    <p>
+      This simple wage calulator calculates the amount of money that your
+      employer will pay you, based on the numbers of regular hours and overtime
+      hours you have worked and how much you get paid for every hour you work.
+    </p>
+    <hr />
+    <h2 class="center">Enter the Following Data</h2>
+    <p class="center">
       Number of Regular Hours Worked:
       <input type="number" id="regular-in" value="0" />
     </p>
-    <p>
+    <p class="center">
       Number of Overtime Hours Worked:
       <input type="number" id="overtime-in" value="0" />
     </p>
-    <p>Rate of Pay ($/hr): $ <input type="number" id="pay-in" value="0" /></p>
-    <p><button id="btn">Calculate Total Wage</button></p>
+    <p class="center">
+      Rate of Pay ($/hr): $ <input type="number" id="pay-in" value="0" />
+    </p>
+    <p class="center"><button id="btn">Calculate Total Wage</button></p>
     <hr />
-    <h2>Total Wage = $ <span id="output">0</span></h2>
+    <h2><span id="output"></span></h2>
   </body>
 </html>

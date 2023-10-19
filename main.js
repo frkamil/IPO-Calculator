@@ -1,4 +1,7 @@
-// CS10 Grade Calculator
+// Wage Calculator by Fatima Kamil (Period One)
+
+//HTML Variables
+let inputnumber = document.getElementById;
 
 //BUTTON CLICK LISTENER
 document.getElementById("btn").addEventListener("click", btnClicked);
@@ -13,7 +16,8 @@ function btnClicked() {
 
   // PROCESS
   let totalwage = regularpay + overtimepay;
+  showtotalwage = `Your total wage is equal to $ ${totalwage}`;
 
   // OUTPUT
-  document.getElementById("output").innerHTML = totalwage;
+  document.getElementById("output").innerHTML = showtotalwage;
 }

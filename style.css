@@ -6,6 +6,7 @@ body {
 
 h1 {
   color: #ff8800;
+  font-size: 250%;
 }
 h2 {
   color: rgb(255, 150, 63);
@@ -35,4 +36,13 @@ hr {
 
 input {
   width: 50px;
+  font-size: large;
+}
+
+p {
+  font-size: larger;
+  color: rgb(80, 80, 80);
+}
+.center {
+  text-align: center;
 }
